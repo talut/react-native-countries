@@ -8,12 +8,15 @@
 #import "ReactNativeCountries.h"
 
 @implementation ReactNativeCountries
-
 - (dispatch_queue_t)methodQueue
 {
     return dispatch_get_main_queue();
 }
-RCT_EXPORT_MODULE()
++(BOOL)requiresMainQueueSetup {
+    return YES;
+}
+
+RCT_EXPORT_MODULE();
 -(NSArray *)countryCodes {
   return [NSLocale ISOCountryCodes];
 }
@@ -43,45 +46,16 @@ RCT_EXPORT_MODULE()
 
   return [NSArray arrayWithArray:dictArray];
 }
-
-RCT_REMAP_METHOD(getCountryNamesWithCodes,
-                 getCountryNamesWithCodesWithResolver:(RCTPromiseResolveBlock)resolve
-                 rejecter:(RCTPromiseRejectBlock)reject)
+- (NSDictionary *)constantsToExport
 {
-  @try {
     NSArray *countryNamesWithCodes = [self countryNamesWithCodes];
-    resolve(countryNamesWithCodes);
-  }
-  @catch(NSError *exception){
-    reject(@"no_countries", @"There is no countries", exception);
-  }
-}
-
-
-RCT_REMAP_METHOD(getCountryNames,
-                 getCountryNamesWithResolver:(RCTPromiseResolveBlock)resolve
-                 rejecter:(RCTPromiseRejectBlock)reject)
-{
-  @try {
-    NSArray *countryNames = [self countryNames];
-    resolve(countryNames);
-  }
-  @catch(NSError *exception){
-    reject(@"no_countries", @"There is no countries", exception);
-  }
-}
-
-RCT_REMAP_METHOD(getCountryCodes,
-                 getCountryCodesWithResolver:(RCTPromiseResolveBlock)resolve
-                 rejecter:(RCTPromiseRejectBlock)reject)
-{
-  @try {
     NSArray *countryCodes = [self countryCodes];
-    resolve(countryCodes);
-  }
-  @catch(NSError *exception){
-    reject(@"no_countries", @"There is no countries", exception);
-  }
+    NSArray *countryNames = [self countryNames];
+    
+    return @{ @"getCountryNamesWithCodes" :countryNamesWithCodes,
+              @"getCountryNames" : countryNames,
+              @"getCountryCodes" : countryCodes };
 }
+
 @end
   

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ReactNativeCountries"
-  s.version      = "0.0.12"
+  s.version      = "0.0.13"
   s.summary      = "ReactNativeCountries"
   s.description  = <<-DESC
                   ReactNativeCountries
