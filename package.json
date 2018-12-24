@@ -1,0 +1,29 @@
+{
+  "name": "react-native-countries",
+  "version": "1.0.0",
+  "description": "Country  Name & Code List for React Native",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "country",
+    "iso-3",
+    "a2",
+    "a3",
+    "countryName",
+    "nativeName",
+    "countries",
+    "country codes"
+  ],
+  "author": "Talut Tasgiran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talut/react-native-countries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/talut/react-native-countries/issues"
+  },
+  "homepage": "https://github.com/talut/react-native-countries#readme"
+}
