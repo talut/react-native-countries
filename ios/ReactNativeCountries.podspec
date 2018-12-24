@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|
   s.name         = "ReactNativeCountries"
-  s.version      = "1.0.0"
+  s.version      = "0.0.1"
   s.summary      = "ReactNativeCountries"
   s.description  = <<-DESC
                   ReactNativeCountries
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/talut/react-native-countries"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "info@taluttasgiran.com.tr" }
