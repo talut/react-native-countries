@@ -2,7 +2,7 @@
 //  ReactNativeCountries.m
 //  ReactNativeCountries
 //
-//  Created by Talut TAŞGIRAN on 24.12.2018.
+//  Created by Talut TASGIRAN on 24.12.2018.
 //
 
 #import "ReactNativeCountries.h"

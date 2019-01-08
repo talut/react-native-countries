@@ -1,7 +1,7 @@
 {
   "name": "react-native-countries",
-  "version": "0.0.13",
-  "description": "Country  Name & Code List for React Native",
+  "version": "0.0.14",
+  "description": "Country Name & Code List for React Native",
   "main": "index.js",
   "keywords": [
     "react-native",

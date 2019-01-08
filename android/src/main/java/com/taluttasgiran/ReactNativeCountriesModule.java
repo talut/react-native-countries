@@ -1,6 +1,4 @@
-package com.reactlibrary;
-
-import android.util.Log;
+package com.taluttasgiran;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
