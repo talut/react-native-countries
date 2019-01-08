@@ -125,6 +125,21 @@ const styles = StyleSheet.create({
 })
 ```
 
+
+### Example
+
+You can find the usage example of the package in the example folder. 
+
+```console
+git clone https://github.com/talut/react-native-countries
+
+cd react-native-countries/example
+
+npm install
+
+react-native run-ios or android
+```
+
 ### Version 0.0.14
 
 - With this version all known bugs fixes, package name of Android and IOS changed.
