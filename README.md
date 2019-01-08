@@ -4,6 +4,10 @@
 
 ## Getting Started
 
+##### Installation
+
+----------
+
 **With NPM**
 
 ```bash
@@ -16,6 +20,10 @@ npm install --save react-native-countries
 yarn add react-native-countries
 ```
 
+##### Linking
+
+-----
+
 **Automatic linking**
 
 ```sh
@@ -24,7 +32,7 @@ react-native link react-native-countries
 
 **Manual Linking**
 
-**[Manual Installation](/docs/manual-installation.md)** (If something went wrong with react-native link)
+**[Manual Installation for IOS and Android](/docs/manual-installation.md)** (If something went wrong with react-native link)
 
 **With Cocoapods (IOS)**
 
@@ -119,7 +127,7 @@ const styles = StyleSheet.create({
 
 ### Version 0.0.14
 
-- Soon
+- With this version all known bugs fixes, package name of Android and IOS changed.
 
 
 
