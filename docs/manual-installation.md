@@ -9,7 +9,7 @@
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-- Add `import import com.taluttasgiran.ReactNativeCountriesPackage;` to the imports at the top of the file
+- Add `import com.taluttasgiran.ReactNativeCountriesPackage;` to the imports at the top of the file
 - Add `new ReactNativeCountriesPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
 ```
