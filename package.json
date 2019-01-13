@@ -1,6 +1,6 @@
 {
   "name": "react-native-countries",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Country Name & Country Code List for React Native",
   "main": "index.js",
   "keywords": [
