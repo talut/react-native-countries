@@ -1,6 +1,6 @@
 # React Native Countries
 
-**React Native Countries** will provide you directly native countries list. The names of the countries come in the native language.
+**React Native Countries v1.0.2** will provide you directly native countries list. The names of the countries come in the native language.
 
 ## Getting Started
 
@@ -140,12 +140,6 @@ npm install
 
 react-native run-ios or android
 ```
-
-### Version 0.0.14
-
-- With this version all known bugs fixes, package name of Android and IOS changed.
-
-
 
 ### Thanks
 
